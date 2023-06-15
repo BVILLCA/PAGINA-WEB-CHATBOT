@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina web basica</title>
+
+</head>
+
+
+<body>
+
+    <div class="head">
+
+        <div class="logo">
+            <figure class="map">
+                <img src="img/LOGO.png" height="100px" width="100%" alt="mapa">
+            </figure>
+        </div>
+
+        <nav class="navbar">
+            <a href="#">INICIO</a>
+            <a href="#">NOSOTROS</a>
+            <a href="#">CONTACTO</a>
+            <a href="#">PRODUCTOS</a>
+            <a href="#">PRECIO</a>
+            <a href="#" class="btn-bot">BOT</a>
+        </nav>
+
+    </div>
+
+
+    
+
+      
+
+
+
+    <div id="chatbox" class="chatbox">
+        <div class="chatbox-header">
+          <h4>Chat con el bot</h4>
+          <button id="close-btn" class="close-btn">Cerrar</button>
+        </div>
+        <div id="chatbox-body" class="chatbox-body"></div>
+        <div class="chatbox-input">
+          <input type="text" id="chat-input" placeholder="Escribe tu mensaje..." />
+          <button id="send-btn" class="send-btn">Enviar</button>
+        </div>
+      </div>
+
+
+      <script src="bot.js"></script>
+      
+      
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    <header class="content header">
+        <h2 class="title">Inicio</h2>
+        <p>
+            BIENVENIDO A SHOPTEC SOMOS VENDEDORE Y DISTRIBUIDORES DE MEJORAS TECNOLOGINAS.
+        </p>
+
+        <div class="btn-home">
+            <a href="#" class="btn">Saber mas</a>
+            <a href="#" class="btn">Saber mas</a>
+            
+        </div>
+    </header>
+
+    <section class="content sau">
+
+        <h2 class="title">Productos</h2>
+        <p>CONTAMOS CON UNNA GRAN VARIEDAD DE PRODUCTOS</p>
+        
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fab fa-angular"></i>
+                <h3>WEB</h3>
+                <p>SHOPTEC</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-apple"></i>
+                <h3>APP</h3>
+                <p>SHOPTEC</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-android"></i>
+                <h3>APK</h3>
+                <p>SHOPTEC</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="content about">
+
+        <h2 class="title">Nosotros</h2>
+        <p>SOMOS UNA EMPRESA DEDICADA A LA VENTA DE 
+            DISPOSITIVOS TECNOLOGICOS DE GRAN VARIEDAD.
+        </p>
+
+        <a href="#" class="btn">MAS INFORMACION</a>
+
+    </section>
+
+    <section class="content price">
+
+        <article class="contain">
+            <h2 class="title">Precio</h2>
+            <p>NOS ENORGULLECEMOS DE TENER LOS PRECIOS MAS ADCEQUIBLES.
+            </p>
+
+            <a href="#" class="btn">MAS INFORMACION</a>
+
+        </article>
+
+    </section>
+
+    <section class="content contact">
+        <h2 class="title">Contacto</h2>
+        <p>15668548</p>
+        <figure class="map">
+            <img src="img/MAPA.png" height="220px" width="100%" alt="mapa">
+        </figure>
+    </section>
+
+    
+
+
+    <div id="catalog-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="catalog-content">
+          <img id="catalog-image" src="" alt="Descripción de la imagen">
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>
