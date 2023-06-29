@@ -1,129 +1,143 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+/* Estilos de reinicio para todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
+/* Estilos para el cuerpo de la página */
 body {
-    text-align: center;
-    font-family: sans-serif;
+  text-align: center;
+  font-family: sans-serif;
 }
 
+/* Estilos para la barra de navegación */
 .head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 63px;
-    background: #30083a;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background: #30083a;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
+/* Estilos para la sección de navegación */
 .navbar {
-    display: flex;
-    margin-right: 10px;
+  display: flex;
+  margin-right: 10px;
 }
 
+/* Estilos para el logotipo */
 .logo {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .logo a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
+/* Estilos para los enlaces de navegación */
 .navbar a {
-    display: block;
-    padding: 20px 20px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
+  display: block;
+  padding: 20px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
+/* Estilos para los enlaces de navegación al pasar el cursor sobre ellos */
 .navbar a:hover {
-    background: #3f3f3f;
+  background: #3f3f3f;
+}
+
+/* Estilos para la sección de encabezado */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  height: 60vh !important;
+  background: url(img/FONDO1.jpg) no-repeat center;
+  background-size: cover;
 }
 
-.header {
-    height: 60vh !important;
-    background: url(img/FONDO1.jpg) no-repeat center;
-    background-size: cover;
-}
-
+/* Estilos para el título */
 .title {
-    margin-bottom: 40px;
-    font-size: 60px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #fff;
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
 }
 
+/* Estilos para los párrafos */
 p {
-    margin-bottom: 40px;
-    font-size: 18px;
-    color: #fff;
-    padding: 0 100px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 100px;
 }
 
+/* Estilos para los botones */
 .btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid #9c27b0;
-    color: #fff;
-    text-decoration: none;
-    background: #9c27b0;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid #9c27b0;
+  color: #fff;
+  text-decoration: none;
+  background: #9c27b0;
 }
 
+/* Estilos para los botones al pasar el cursor sobre ellos */
 .btn:hover {
-    background: none;
-    
+  background: none;
 }
 
+/* Estilos para los botones de inicio */
 .btn-home {
-    display: flex;
+  display: flex;
 }
 
 .btn-home a {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
-
+/* Estilos para el contenido */
 .content {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+/* Estilos para el contenedor 'sau' */
 .sau {
-    padding: 30px;
-    background: #460c55
+  padding: 30px;
+  background: #460c55;
 }
 
+/* Estilos para el contenedor de cajas */
 .box-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
+
+/* Estilos para las cajas dentro del contenedor */
 .box-container .box {
     height: 11rem;
     width: 17rem;
@@ -134,81 +148,78 @@ p {
     margin: 2rem;   
 }
 
+/* Estilos para el ícono dentro de las cajas */
 .box-container .box i {
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    background: #9c27b0;
-    font-size: 2rem;
-    margin: 1rem 0;
-
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #9c27b0;
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 
+/* Estilos para el título dentro de las cajas */
 .box-container .box h3 {
-    font-size: 20px;
-    color: #9c27b0;
-
+  font-size: 20px;
+  color: #9c27b0;
 }
 
+/* Estilos para el párrafo dentro de las cajas */
 .box-container .box p {
-    padding: 0 15px;
-    font-size: 16px;
+  padding: 0 15px;
+  font-size: 16px;
 }
 
+/* Estilos para la sección 'about' */
 .about {
-    background: #270731;
+  background: #270731;
 }
 
+/* Estilos para la sección 'price' */
 .price {
-    background: url(img/FONDO.jpg) no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
+  background: url(img/FONDO.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
 }
 
-
+/* Estilos para la sección 'contact' */
 .contact {
-    padding-top: 20px;
-    background: #190520;
-    padding-bottom: 0;
+  padding-top: 20px;
+  background: #190520;
+  padding-bottom: 0;
 }
 
-
+/* Estilos para la sección 'title' en pantallas pequeñas */
 @media (max-width: 768px) {
-
-    .title {
-        margin-bottom: 0;
-        font-size: 40px;
-    }
-
-    .sau {
-        height: 100vh;
-    }
-
-    .navbar {
-        display: none;
-    }
-   
-    
+  .title {
+      margin-bottom: 0;
+      font-size: 40px;
+  }
+  .sau {
+      height: 100vh;
+  }
+  .navbar {
+      display: none;
+  }
 }
 
-
+/* Estilos para el botón del chatbot */
 .btn-bot {
-    display: inline-block;
-    margin-top: 5px;
-    padding: 10px 20px;
-    border: 2px solid #9c27b0;
-    color: #fff;
-    text-decoration: none;
-    background: #9c27b0;
+  display: inline-block;
+  margin-top: 5px;
+  padding: 10px 20px;
+  border: 2px solid #9c27b0;
+  color: #fff;
+  text-decoration: none;
+  background: #9c27b0;
 }
 
 .btn-bot:hover {
-    background: none;
-    
+  background: none;
 }
 
 
@@ -218,137 +229,132 @@ p {
 
 
 
-
+/*CAJA DE CHAT*/
 .chatbox {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 300px;
-    height: 400px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 9999;
-    
-  }
+  display: none; /* Oculta la caja de chat por defecto */
+  position: fixed; /* Posiciona la caja de chat de forma fija */
+  bottom: 20px; /* Margen inferior de 20px desde el borde inferior de la ventana */
+  right: 20px; /* Margen derecho de 20px desde el borde derecho de la ventana */
+  width: 300px; /* Ancho de la caja de chat */
+  height: 400px; /* Altura de la caja de chat */
+  background-color: #fff; /* Color de fondo de la caja de chat */
+  border-radius: 5px; /* Borde redondeado de la caja de chat */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra de la caja de chat */
+  z-index: 9999; /* Índice de apilamiento para asegurar que la caja de chat esté por encima de otros elementos */
+}
+
+.chatbox-header {
+  padding: 10px; /* Espaciado interno de 10px en el encabezado de la caja de chat */
+  background-color: #f1f1f1; /* Color de fondo del encabezado de la caja de chat */
+  border-bottom: 1px solid #ccc; /* Borde inferior de 1px sólido con color #ccc en el encabezado de la caja de chat */
+}
+
+.chatbox-header h4 {
+  margin: 0; /* Elimina el margen superior e inferior del título del encabezado de la caja de chat */
+  font-size: 16px; /* Tamaño de fuente de 16px para el título del encabezado de la caja de chat */
+}
+
+.close-btn {
+  float: right; /* Hace que el botón de cierre se alinee a la derecha */
+  border: none; /* Elimina los bordes del botón de cierre */
+  background: none; /* Elimina el fondo del botón de cierre */
+  cursor: pointer; /* Cambia el cursor al puntero al pasar sobre el botón de cierre */
+}
+
+.chatbox-body {
+  height: 300px; /* Altura de 300px para el cuerpo de la caja de chat */
+  padding: 10px; /* Espaciado interno de 10px en el cuerpo de la caja de chat */
+  overflow-y: scroll; /* Agrega una barra de desplazamiento vertical al cuerpo de la caja de chat si el contenido excede el tamaño */
+}
+
+.chatbox-input {
+  padding: 10px; /* Espaciado interno de 10px en el área de entrada de la caja de chat */
+  border-top: 1px solid #ccc; /* Borde superior de 1px sólido con color #ccc en el área de entrada de la caja de chat */
+}
+
+.chatbox-input input[type="text"] {
+  width: 70%; /* Ancho del campo de entrada de texto */
+  padding: 5px; /* Espaciado interno de 5px en el campo de entrada de texto */
+  border: 1px solid #ccc; /* Borde de 1px sólido en el campo de entrada de texto */
+  border-radius: 3px; /* Borde redondeado del campo de entrada de texto */
+}
+
+.chatbox-input .send-btn {
+  width: 25%; /* Ancho del botón de envío */
+  padding: 5px; /* Espaciado interno de 5px en el botón de envío */
+  border: none; /* Quita el borde del botón de envío */
+  background-color: #4caf50; /* Color de fondo del botón de envío */
+  color: #fff; /* Color del texto del botón de envío */
+  border-radius: 3px; /* Borde redondeado del botón de envío */
+  cursor: pointer; /* Cambia el cursor a un puntero al pasar por encima del botón de envío */
+}
+
+
+
+/*VENTANA EMERGENTE DE IMAGENES*/
+.container {
+  display: flex; /* Aplica un contenedor flexible para alinear los elementos internos */
+  justify-content: center; /* Centra los elementos horizontalmente dentro del contenedor */
+}
+
+.catalog-container {
+  width: 300px; /* Ancho del contenedor del catálogo */
+  height: 200px; /* Altura del contenedor del catálogo */
+  background-color: #260830; /* Color de fondo del contenedor del catálogo */
+  margin-top: 20px; /* Margen superior de 20px */
+  border-radius: 5px; /* Borde redondeado del contenedor del catálogo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra del contenedor del catálogo */
+}
+
+
+
+.catalog-modal {
   
-  
-  .chatbox-header {
-    padding: 10px;
-    background-color: #f1f1f1;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .chatbox-header h4 {
-    margin: 0;
-    font-size: 16px;
-  }
-  
-  .close-btn {
-    float: right;
-    border: none;
-    background: none;
-    cursor: pointer;
-  }
-  
-  .chatbox-body {
-    height: 300px;
-    padding: 10px;
-    overflow-y: scroll;
-  }
-  
-  .chatbox-input {
-    padding: 10px;
-    border-top: 1px solid #ccc;
-  }
-  
-  .chatbox-input input[type="text"] {
-    width: 70%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  .chatbox-input .send-btn {
-    width: 25%;
-    padding: 5px;
-    border: none;
-    background-color: #4caf50;
-    color: #fff;
-    border-radius: 3px;
-    cursor: pointer;
-  }
+  position: absolute; /* Posiciona el modal del catálogo de forma absoluta */
+  z-index: 10000; /* Índice de apilamiento alto para asegurar que el modal esté por encima de otros elementos */
+}
 
 
+.modal {
+  display: none; /* Oculta el modal por defecto */
+  position: fixed; /* Posiciona el modal de forma fija */
+  z-index: 1; /* Índice de apilamiento para asegurar que el modal esté por encima de otros elementos */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Habilita el desplazamiento si el contenido excede el tamaño del modal */
+  background-color: rgba(0, 0, 0, 0.4); /* Color de fondo semi-transparente del modal */
+}
 
+.modal-content {
+  background-color: #160520; /* Color de fondo del contenido del modal */
+  margin: 10% auto; /* Margen superior e inferior automático para centrar verticalmente el contenido del modal */
+  padding: 20px; /* Espaciado interno del contenido del modal */
+  border: 1px solid #888; /* Borde de 1px sólido del contenido del modal */
+  width: 80%; /* Ancho del contenido del modal */
+  max-width: 1000px; /* Ancho máximo del contenido del modal */
+}
 
-  .container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .catalog-container {
-    width: 300px;
-    height: 200px;
-    background-color: #260830;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
+.close {
+  color: #aaa; /* Color del icono de cierre */
+  float: right; /* Posiciona el icono de cierre a la derecha */
+  font-size: 28px; /* Tamaño de fuente del icono de cierre */
+  font-weight: bold; /* Peso de fuente en negrita del icono de cierre */
+  cursor: pointer; /* Cambia el cursor a un puntero al pasar por encima del icono de cierre */
+}
 
+.close:hover,
+.close:focus {
+  color: #000; /* Color del icono de cierre al pasar por encima o al hacer foco */
+  text-decoration: none; /* Quita la decoración de texto al pasar por encima o al hacer foco */
+  cursor: pointer; /* Cambia el cursor a un puntero al pasar por encima o al hacer foco */
+}
 
-
-
-
-
-  .catalog-modal {
-    
-    position: absolute; 
-    z-index: 10000; 
-  }
-
-
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  
-  .modal-content {
-    background-color: #160520;
-    margin: 10% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 1000px;
-  }
-  
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-
-  .chatbot-message {
-    color: purple;
-  }
+/*CUSTOM CHAT-BOT MENSAJES*/
+.chatbot-message {
+  color: purple; /* Color de texto para los mensajes del chatbot */
+}
 
 
   
